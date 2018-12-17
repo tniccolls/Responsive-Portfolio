@@ -217,33 +217,28 @@ body {
   
 
 @media (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+    .main-section{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-section{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
     .picSizeUp {
         width: 540px;
         height: 400px;
     }
-}
 
-@media (min-width: 640px) {
-
+    #masthead {
+        position: static;
     }
-
-@media (min-width: 640px) {
-    .resize {
-        max-width: 740px;
-    }
-}
-
-
-
-
-@media (max-width: 980px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-
 }
